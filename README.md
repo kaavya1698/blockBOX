@@ -11,7 +11,10 @@ Your one stop shop to deploy Blockchain ETL Data Infrastructure.
     
 
 ## Motivation
-Blockchain databases are rich in information but querying them can be very expensive. This is because the data in blockchain lives in a decentralized network of nodes that are constantly replicating records among themselves. This project will allow you to to deploy a robust infrastructure for blockchain ETL, creating an environment for data transfer and to preform analytics on the queried data. The data pipeline is orchestrated with Airflow allowing scheduling of multiple tasks that might have dependencies on one another. This project is leveraging AWS cloud infrastructure and Terraform for easy deployment. It is also using Prometheus and Grafana to monitor the data pipeline and infrastructure.
+Blockchain databases are rich in information but querying them can be very expensive. This is because the data in blockchain lives in a decentralized network of nodes that are constantly replicating records among themselves. This project will allow you to to deploy a robust infrastructure for blockchain ETL, creating an environment for data transfer and to preform analytics on the queried data. The data pipeline is orchestrated with Airflow allowing scheduling of multiple tasks that might have dependencies on one another. This project is leveraging AWS cloud infrastructure and Terraform for easy deployment. It is also using Prometheus and Grafana to monitor the data pipeline and infrastructure.  
+  
+![Image of Workflow Diagram]
+(https://github.com/kaavya1698/blockBOX/blob/main/WorkflowDiagram.png)
 
 ## Project Structure
 There are three main components of this project:
