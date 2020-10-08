@@ -24,7 +24,9 @@ Prerequisites:
 * Ansible
   
 Many of the infrastructure components are dependent on previous components. In order to deploy the infrastructure:  
-``` git clone https://github.com/kaavya1698/terragrunt-icon-analytics```
+  
+``` git clone https://github.com/kaavya1698/terragrunt-icon-analytics```.   
+  
 Navigate to icon-analytics/aws. Here you will see the infrastructure components needed to be deployed. Deploy the infrastructure in the following order by running ```terragrunt apply``` after navigating the the respective folder:
 
 1. network
