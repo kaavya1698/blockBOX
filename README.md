@@ -16,4 +16,4 @@ There are three main components of this project:
 ### Project Infrastructure
 
 The infrastructure needed for this project can be found at:
-[terragrunt-icon-analytics](https://github.com/kaavya1698/terragrunt-icon-analytics) which is a fork from the original repo. A second S3 bucket wass added to allow for fthe transfer of data from Amazon RDS to Amazon Redshift.
+[terragrunt-icon-analytics](https://github.com/kaavya1698/terragrunt-icon-analytics) which is a fork from the original repo. A second S3 bucket was added to allow for the transfer of data from Amazon RDS to Amazon Redshift.  Many deployments of infrastructure is dependent on previous components. In order to 
