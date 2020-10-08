@@ -25,3 +25,13 @@ Prerequisites:
   
 Many of the infrastructure components are dependent on previous components. In order to deploy the infrastructure:  
 ``` git clone https://github.com/kaavya1698/terragrunt-icon-analytics```
+Navigate to icon-analytics/aws. Here you will see the infrastructure components needed to be deployed. Deploy the infrastructure in the following order by running ```terragrunt apply``` after navigating the the respective folder:
+
+1. network
+2. rds
+3. postgres
+4. airflow
+5. s3
+6. s3-redshift
+
+```redshift-db``` and ```superset``` can be deployed at anytime after if desired to use.
